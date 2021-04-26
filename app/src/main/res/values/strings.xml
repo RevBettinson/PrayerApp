@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prayer</string>
+    <string name="app_MorningPrayer">Morning Prayer</string>
+    <string name="app_version">ALPHA 0.001</string>
+</resources>
