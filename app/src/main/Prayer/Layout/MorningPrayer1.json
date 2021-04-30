@@ -1,0 +1,70 @@
+{
+  "MorningPrayer" : {
+    "Name": {
+      "EN": "Morning Prayer",
+      "CY": "Boreol Gweddi"
+    },
+    "Section1": {
+      "Name": "Opening",
+      "Location": "MorningPrayer/Introductions",
+      "File" : "OpeningC"
+    },
+    "Section2": {
+      "Name": "Canticle",
+      "Location" : "Canticles",
+      "File" : ["Venite","Jubilate"]
+    },
+    "Bible1" : {
+      "Name": "Bible Reading : Old Testament",
+      "Type": "OT"
+    },
+    "Section3":{
+      "Name":"Gospel Canticle",
+      "Location" : "MorningPrayer/GospelCanticle",
+      "File":"Benedictus"
+    },
+    "Bible2" : {
+      "Name": "Bible Reading : New Testament",
+      "Type": "NT"
+    },
+    "Bible3": {
+      "Name" : "Bible Reading: Gospel",
+      "Type": "GP"
+    },
+    "Section4":{
+      "Name": "Affirmation",
+      "Location":"Creeds",
+      "File":"Apostles"
+    },
+    "Section5": {
+      "Name":"Intercessions",
+      "Location":"Intercessions",
+      "File" :"Intercessions"
+    },
+    "Section6" : {
+      "Name":"Prayer",
+      "Location":"Prayer",
+      "File": "LordsPrayer"
+    },
+    "Section7": {
+      "Name":"Collect For Peace",
+      "Location":"Collects",
+      "File":"Peace"
+    },
+    "Section8": {
+      "Name": "Collect For Grace",
+      "Location":"Collects",
+      "File":"Grace"
+    },
+    "Section9": {
+      "Name": "Conclusion",
+      "Location": "MorningPrayer/Conclusions",
+      "File":"Conclusion1"
+    },
+    "Section10": {
+      "Name": "Copyright",
+      "Location":"Licences",
+      "File":"Copyright"
+    }
+  }
+}
