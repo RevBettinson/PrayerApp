@@ -2,5 +2,10 @@
 <resources>
     <string name="app_name">Gweddi</string>
     <string name="app_MorningPrayer">Boreol Gweddi</string>
-    <string name="app_version">ALPHA 0.0001</string>
+    <string name="btn_Language">English</string>
+    <string name="Error">Gwall</string>
+    <string name="FileNotFound">ddim ar gael</string>
+    <string name="OTReading">Darlleniad o\'r Hen Testament</string>
+    <string name="NewTestamentReading">Darlleniad o\'r Testament Newydd</string>
+    <string name="GospelReading">Darllendiad o\'r Gospell</string>
 </resources>
