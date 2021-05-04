@@ -1,11 +1,12 @@
-<h2>Y GWEDDÏAU</h2>
+
+<h2> Y GWEDDÏAU</h2>
+<br><em>Yn y Foreol Weddi, offrymir gweddïau dros y dydd a’i orchwylion, dros<br>
+y byd a’i anghenion a thros yr Eglwys a’i bywyd.<br>
+Defnyddir y gweddïau yn Atodiad &#8548;, y Litani (Atodiad &#8549;), neu<br>
+weddïau addas eraill.<br>
 <br>
-<em>Yn y Foreol Weddi, offrymir gweddïau dros y dydd a’i orchwylion, dros
-y byd a’i anghenion a thros yr Eglwys a’i bywyd.
-Defnyddir y gweddïau yn Atodiad v, y Litani (Atodiad vi), neu
-weddïau addas eraill.</em>
-<br>
-<em>Gellir defnyddio ymatebion addas, er enghraifft</em>
+Gellir defnyddio ymatebion addas, er enghraifft</em><br>
+
 Arglwydd, yn dy drugaredd,<br>
 <strong>gwrando ein gweddi.</strong><br>
 <br>
@@ -13,7 +14,8 @@ Arglwydd, clyw ni.<br>
 <strong>Yn rasol, clyw ni, O Arglwydd.</strong><br>
 <br>
 Arnat ti, Arglwydd, y gweddïwn.<br>
-<strong>Arglwydd, trugarha.</strong><br>
+<strong>Arglwydd, trugarha. </strong><br>
+
 <br>
 Clyw ni, O Arglwydd,<br>
 <strong>oherwydd mawr yw dy drugaredd.</strong><br>
