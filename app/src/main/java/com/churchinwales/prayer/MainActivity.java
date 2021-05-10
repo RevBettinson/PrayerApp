@@ -2,6 +2,8 @@ package com.churchinwales.prayer;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 import android.widget.ProgressBar;
@@ -10,6 +12,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.core.view.GravityCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
@@ -19,7 +24,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements
+    NavigationView.OnNavigationItemSelectedListener
+{
 
     private AppBarConfiguration mAppBarConfiguration;
     private ProgressBar spinner;
@@ -37,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        spinner = (ProgressBar) findViewById(R.id.ProgressBar1);
-        spinner.setVisibility(View.GONE);
+        //spinner = (ProgressBar) findViewById(R.id.ProgressBar1);
+        //spinner.setVisibility(View.GONE);
         /**
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -54,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.homeFragment, R.id.fragment_Prayer, R.id.nav_slideshow)
-                .setDrawerLayout(drawer)
+                R.id.homeFragment, R.id.fragment_Prayer, R.id.id_EveningPrayer, R.id.fragment_Lectionary)
+                .setOpenableLayout(drawer)
                 .build();
         //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         //NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_container);
@@ -65,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = navHostFragment.getNavController();
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        navigationView.setNavigationItemSelectedListener(this);
+        //(onNavigationItemSelected())
+
 
 
     }
@@ -82,4 +92,44 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    public boolean onNavigationItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        Log.v("TAG", "On Navigation Item Selected");
+        Bundle args = new Bundle();
+
+        int destination=R.id.homeFragment;
+
+        if (id == R.id.homeFragment) {
+          //fragment = findViewById(R.id.homeFragment);
+           destination = R.id.homeFragment;
+        }
+
+        if (id == R.id.fragment_Prayer) {
+
+            args.putString("Type","MorningPrayer");
+            destination=R.id.fragment_Prayer;
+        }
+
+        if (id == R.id.id_EveningPrayer) {
+            args.putString("Type","EveningPrayer");
+            destination=R.id.fragment_Prayer;
+        }
+
+        if(id== R.id.nav_Lectionary) {
+            destination = R.id.fragment_Lectionary;
+        }
+
+
+        Navigation.findNavController(this,R.id.nav_host_fragment).navigate(destination,args);
+
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+
+        return true;
+    }
+
 }

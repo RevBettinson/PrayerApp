@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Prayer</string>
     <string name="app_MorningPrayer">Morning Prayer</string>
-    <string name="app_version" translatable="false">ALPHA 0.002</string>
+    <string name="app_version" translatable="false">BETA 0.001</string>
     <string name="btn_Language">Cymraeg</string>
     <string name="Error">Error</string>
     <string name="FileNotFound">File Not Found</string>
@@ -11,8 +11,8 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Unofficial Church In Wales App</string>
+    <string name="nav_header_subtitle" translatable="false">rev.bettinson@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -21,4 +21,6 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_EveningPrayer">Evening Prayer</string>
+    <string name="app_Lectionary">Lectionary</string>
 </resources>
