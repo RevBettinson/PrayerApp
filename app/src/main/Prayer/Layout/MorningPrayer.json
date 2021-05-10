@@ -39,7 +39,7 @@
 		"Section5": {
 			"Name":"Intercessions",
 			"Location":"Intercessions",
-			"File" :"Intercessions"
+			"File" :"IntercessionsMP"
 		},
 		"Section6" : {
 			"Name":"Prayer",
@@ -54,7 +54,7 @@
 		"Section8": {
 			"Name": "Collect For Grace",
 			"Location":"Collects",
-			"File":"Grace"
+			"File":"Grace1"
 		},
 		"Section9": {
 			"Name": "Conclusion",

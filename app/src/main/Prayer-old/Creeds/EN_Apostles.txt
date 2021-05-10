@@ -1,0 +1,21 @@
+<h2>The Apostles’ Creed </h2>
+<br><strong>
+I believe in God, the Father almighty,<br>
+creator of heaven and earth.<br>
+I believe in Jesus Christ, God’s only Son, our Lord,<br>
+who was conceived by the Holy Spirit,<br>
+born of the Virgin Mary,<br>
+suffered under Pontius Pilate,<br>
+was crucified, died and was buried;<br>
+he descended to the dead.<br>
+On the third day he rose again;<br>
+he ascended into heaven,<br>
+and is seated at the right hand of the Father,<br>
+and he will come to judge the living and the dead.<br>
+I believe in the Holy Spirit,<br>
+the holy catholic Church,<br>
+the communion of saints,<br>
+the forgiveness of sins,<br>
+the resurrection of the body,<br>
+and the life everlasting. Amen.<br>
+<br></strong>

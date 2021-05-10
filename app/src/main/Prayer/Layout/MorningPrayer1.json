@@ -7,12 +7,17 @@
     "Section1": {
       "Name": "Opening",
       "Location": "MorningPrayer/Introductions",
-      "File" : "OpeningC"
+      "File" : "OpeningC1"
     },
     "Section2": {
       "Name": "Canticle",
       "Location" : "Canticles",
       "File" : ["Venite","Jubilate"]
+    },
+    "Section1a": {
+      "Name": "Opening",
+      "Location": "MorningPrayer/Introductions",
+      "File" : "OpeningC2"
     },
     "Bible1" : {
       "Name": "Bible Reading : Old Testament",

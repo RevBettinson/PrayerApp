@@ -3,8 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/homeFragment"
@@ -15,8 +13,15 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/app_MorningPrayer" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/id_EveningPrayer"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/app_EveningPrayer" />
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_Lectionary"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/app_Lectionary" />
     </group>
 </menu>

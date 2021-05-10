@@ -1,0 +1,31 @@
+<h1>Welcome to the <em>(Unofficial)</em> Church In Wales App</h1>
+
+<P>
+This app is currently under heavy development. This means that things may change,
+break, or randomly stop working. Please always check for the latest version before
+posting a bug report. Please also check the 'known bugs' (below) to see if it's something
+we are already working on.
+</p>
+<P>
+Nid yw yr tudelen hwn yn ddwy-iethog gan fy mod i'n ddiog.
+</P>
+<h2>Known Bugs</h2>
+<ul>
+<li>There are no Sunday Lectionary Readings</li>
+<li>Sometimes the Prayer list will appear blank, and needs to be chosen again</li>
+<li>Evening Pray Fragment Retains "Morning Prayer" name</li>
+<li>Nid yw popeth yn cael ei cyfieithu yn iawn</li>
+</ul>
+<h2>Items Added for Beta Release</h2>
+<ul>
+<li>New Drawer Layout to make navigation easy</li>
+<li>A (test) version of the Church In Wales Lectionary</li>
+<li>Evening Prayer and Morning Prayer now available</li>
+<li>Lectionary page to show today's Morning and Evening Prayer readings</li>
+<li>This 'Todo' page</li>
+<li>Lectionary page now properly titled.
+</ul>
+<P>
+This app was written by <em>Phil Bettinson</em> All rights/copyright reserved.<br>
+
+

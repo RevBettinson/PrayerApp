@@ -8,4 +8,7 @@
     <string name="OTReading">Darlleniad o\'r Hen Testament</string>
     <string name="NewTestamentReading">Darlleniad o\'r Testament Newydd</string>
     <string name="GospelReading">Darllendiad o\'r Gospell</string>
+    <string name="app_EveningPrayer">Hywrol Gweddi</string>
+    <string name="app_Lectionary">Llythiadur</string>
+    <string name="nav_header_title">App Answyddogol Eglwys Yngh Nhgymru</string>
 </resources>
