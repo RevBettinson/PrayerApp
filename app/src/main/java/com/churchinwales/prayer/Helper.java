@@ -133,7 +133,7 @@ public class Helper {
 
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
+
     public JSONObject getLectionaryJson(Context app_Context, String prayerTime){
 
         JSONObject prayer = new JSONObject();

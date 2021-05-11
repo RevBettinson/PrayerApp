@@ -5,13 +5,14 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
     tools:context=".fragment_Lectionary">
 
     <TextView
         android:id="@+id/txt_LectionaryOutput"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="@dimen/nav_header_height"
+        android:layout_marginTop="@dimen/app_ActionBar_Height"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
