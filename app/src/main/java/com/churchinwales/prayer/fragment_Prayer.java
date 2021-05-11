@@ -130,7 +130,7 @@ public class fragment_Prayer extends Fragment {
             }
         });
 
-        spinner = (ProgressBar) rootView.findViewById(R.id.ProgressBar2);
+        //spinner = (ProgressBar) rootView.findViewById(R.id.ProgressBar2);
         //This needs to be a translatable string. TODO
         if(prayerType.equalsIgnoreCase("MorningPrayer")) {
             tv_Title.setText(getString(R.string.app_MorningPrayer));
@@ -140,11 +140,11 @@ public class fragment_Prayer extends Fragment {
             tv_Title.setText(getString(R.string.app_EveningPrayer));
         }
 
-        spinner.setVisibility(View.VISIBLE);
+       // spinner.setVisibility(View.VISIBLE);
 
         this.setUpPrayer(prayerType);
 
-        spinner.setVisibility(View.GONE);
+        //spinner.setVisibility(View.GONE);
 
         return rootView;
 

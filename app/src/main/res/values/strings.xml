@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Prayer</string>
     <string name="app_MorningPrayer">Morning Prayer</string>
-    <string name="app_version" translatable="false">BETA 0.001</string>
+    <string name="app_version" translatable="false">BETA 0.004</string>
     <string name="btn_Language">Cymraeg</string>
     <string name="Error">Error</string>
     <string name="FileNotFound">File Not Found</string>
