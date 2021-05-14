@@ -10,7 +10,7 @@ It can currently:
 3. Uses the Church-In-Wales lectionary
 
 #Downloading
-https://github.com/RevBettinson/PrayerApp/releases/download/BETA0.001/ChurchInWalesPrayer.apk
+https://github.com/RevBettinson/PrayerApp/releases/download/BETA0.004/ChurchInWalesPrayer.apk
 
 
 Your device may warn you about installation from "uknown sources", click "Okay". Make sure that you only do it for this app, and not for everything, if that's an option. 
