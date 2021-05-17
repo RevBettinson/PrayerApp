@@ -18,3 +18,6 @@ Your device may warn you about "Unknown" or "Untrusted" publisher. Click "Okay" 
 
 You should find the app called "Prayer" is now installed. You should find the icon to be a slightly off-center Church Of Wales round cross
 
+Support this project, and feed my coffee addiction:
+https://ko-fi.com/philbettinson
+
