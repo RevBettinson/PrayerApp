@@ -11,4 +11,5 @@
     <string name="app_EveningPrayer">Hywrol Gweddi</string>
     <string name="app_Lectionary">Llythiadur</string>
     <string name="nav_header_title">App Answyddogol Eglwys Yngh Nhgymru</string>
+    <string name="app_loading">llwytho</string>
 </resources>

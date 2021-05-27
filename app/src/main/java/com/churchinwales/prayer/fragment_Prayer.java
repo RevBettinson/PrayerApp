@@ -1,14 +1,18 @@
 package com.churchinwales.prayer;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+import androidx.core.content.PermissionChecker;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
+import androidx.lifecycle.Observer;
 
 import android.text.Html;
 import android.text.SpannableString;
@@ -24,6 +28,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,13 +45,15 @@ import java.io.InputStreamReader;
 import java.util.Calendar;
 import java.util.Iterator;
 import java.util.Locale;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link fragment_Prayer#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class fragment_Prayer extends Fragment {
+public class fragment_Prayer extends Fragment implements app_BiblePericope_Callback<String>, Observer {
 
     TextView tv_Prayer;
     TextView tv_Title;
@@ -57,6 +64,10 @@ public class fragment_Prayer extends Fragment {
     String myData="";
     String prayerType = "";
     Helper myHelper;
+    BibleReadingsViewModel br_ViewModel= new BibleReadingsViewModel();
+    private ExecutorService executorService = Executors.newFixedThreadPool(2);
+    private static final int REQUEST_CODE_ASK_PERMISSONS =1;
+
 
     private ProgressBar spinner;
     // TODO: Rename parameter arguments, choose names that match
@@ -159,6 +170,7 @@ public class fragment_Prayer extends Fragment {
         SpannableStringBuilder myDocument = new SpannableStringBuilder("");
 
 
+
         try {
                 if(myData == "") {
 
@@ -192,6 +204,8 @@ public class fragment_Prayer extends Fragment {
         StringBuilder data = new StringBuilder();
         try {
             JSONObject jsonRootObject = new JSONObject(myData);
+
+            br_ViewModel.getObservable().observe(getViewLifecycleOwner(), this);
             JSONObject jsonObject = jsonRootObject.optJSONObject(prayerType);
 
 
@@ -229,13 +243,20 @@ public class fragment_Prayer extends Fragment {
                         data_JSOB.put("File",myFiles.get(random));
 
                     }
+
+                    br_ViewModel.setValue((String)key,getSection(app_Context,data_JSOB).toString());
+                    /**
                     SpannableStringBuilder section= getSection(app_Context, data_JSOB);
                     myDocument.append(section);
+                     **/
                 }
                 if(((String)key).startsWith("Bible")) {
                     JSONObject data_JSOB = jsonObject.getJSONObject((String) key);
+                    getBibleReading(app_Context,data_JSOB.getString("Type").toString(),(String)key);
+                    /**
                     SpannableStringBuilder bible= getBibleReading(app_Context,data_JSOB.getString("Type"));
                     myDocument.append(bible);
+                     **/
                 }
 
 
@@ -250,16 +271,49 @@ public class fragment_Prayer extends Fragment {
         //myDocument.append(confessional());
 
         tv_Prayer.setText(myDocument, TextView.BufferType.NORMAL);
-
-
     }
 
+    private void getBibleReading(Context app_context, String type, String section) {
+
+        JSONObject prayer = myHelper.getLectionaryJson(app_context, type);
+        SpannableStringBuilder text_Prayer = new SpannableStringBuilder();
+
+        Helper myHelper = new Helper();
+        HttpReqTask myTask = new HttpReqTask(executorService);
+
+        try {
+            if(type.equalsIgnoreCase("OT")) {
+               br_ViewModel.setValue(type+"_Name","<br><br><h1>"+getString(R.string.OTReading)+"</h1><br>");
+            }
+            if(type.equalsIgnoreCase("NT")) {
+                br_ViewModel.setValue(type+"_Name","<br><br><h1>"+getString(R.string.NewTestamentReading)+"</h1><br>");
+            }
+            if(type.equalsIgnoreCase("Psalm")) {
+                br_ViewModel.setValue(type+"_Name","<h1>"+getString(R.string.Psalm)+"</h1><br>");
+            }
+
+            br_ViewModel.setValue(type+"_Title","<h2>"+prayer.getString(type)+"</h2>");
+            br_ViewModel.setValue(section,".."+getString(R.string.app_loading));
+            if(checkPermissions()) {
+                myTask.makeBibleRequest(prayer.getString(type), section, this);
+            }
+            else {
+                br_ViewModel.setValue(section,"... No internet permission granted");
+            }
+            br_ViewModel.setValue(type+"_Spacing","<BR><BR>");
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+
+        }
+    }
+
+
     @RequiresApi(api = Build.VERSION_CODES.O)
-    private SpannableStringBuilder getBibleReading(Context app_context, String type) {
+    private SpannableStringBuilder getBibleReadingNewOld(Context app_context, String type) {
 
         JSONObject prayer = myHelper.getLectionaryJson(app_context,"MP");
         SpannableStringBuilder text_Prayer = new SpannableStringBuilder();
-
 
 
         try {
@@ -369,7 +423,7 @@ public class fragment_Prayer extends Fragment {
         return reading;
     }
 
-    protected SpannableStringBuilder getSection(Context app_Context, JSONObject data_JSOB) throws JSONException
+    protected String getSection(Context app_Context, JSONObject data_JSOB) throws JSONException
     {
         String data="";
         try {
@@ -385,8 +439,8 @@ public class fragment_Prayer extends Fragment {
             data = getString(R.string.Error)+" :"+data_JSOB.getString("Name")+" "+getString(R.string.FileNotFound)+"!<br><br>";
         }
 
-        SpannableStringBuilder intro = new SpannableStringBuilder(Html.fromHtml(data));
-        return intro;
+        //SpannableStringBuilder intro = new SpannableStringBuilder(Html.fromHtml(data));
+        return data;
     }
 
     protected String readFile(Context app_Context, String relativePath) throws IOException
@@ -452,4 +506,39 @@ public class fragment_Prayer extends Fragment {
         //This is necessary as the app doesn't update 'top level' resources!
         btn_Language.setText(getString(R.string.btn_Language));
     }
+
+    public void onComplete(Result<String> result)
+    {
+        if(result instanceof Result.Success) {
+            //  br_ViewModel.setValue(new SpannableStringBuilder(Html.fromHtml(((Result.Success<String>) result).data,Html.FROM_HTML_OPTION_USE_CSS_COLORS)));
+            br_ViewModel.postValue((((Result.Success<String>)result).type),(((Result.Success<String>)result).data));
+        } else {
+            br_ViewModel.postValue("Error","There was an error");
+        }
+
+    }
+
+
+    @Override
+    public void onChanged(Object o) {
+        tv_Prayer.setText(Html.fromHtml(br_ViewModel.getPage(),Html.FROM_HTML_SEPARATOR_LINE_BREAK_HEADING));
+
+    }
+
+    public boolean checkPermissions()
+    {
+        if(PermissionChecker.checkSelfPermission(getContext(), Manifest.permission.INTERNET) == PermissionChecker.PERMISSION_GRANTED ) {
+            return true;
+        } else {
+            String[] permissionArrays = new String[]{Manifest.permission.INTERNET};
+            requestPermissions(permissionArrays, REQUEST_CODE_ASK_PERMISSONS);
+        }
+        return false;
+    }
+
+    public void onRequestPermissions(int requestCode, @NonNull String permissions[]) {
+        Toast.makeText(getContext(), "Permission Requested", Toast.LENGTH_SHORT).show();
+    }
+
+
 }

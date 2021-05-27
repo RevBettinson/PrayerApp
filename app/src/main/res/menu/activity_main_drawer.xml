@@ -23,5 +23,10 @@
         android:id="@+id/nav_Lectionary"
         android:icon="@drawable/ic_menu_camera"
         android:title="@string/app_Lectionary" />
+
+    <item
+        android:id="@+id/fragment_oremus"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/app_Oremus" />
     </group>
 </menu>

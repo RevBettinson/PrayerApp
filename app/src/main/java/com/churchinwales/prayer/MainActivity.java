@@ -24,10 +24,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class MainActivity extends AppCompatActivity implements
     NavigationView.OnNavigationItemSelectedListener
 {
 
+    private ExecutorService executorService = Executors.newFixedThreadPool(4);
     private AppBarConfiguration mAppBarConfiguration;
     private ProgressBar spinner;
 
@@ -120,6 +124,9 @@ public class MainActivity extends AppCompatActivity implements
 
         if(id== R.id.nav_Lectionary) {
             destination = R.id.fragment_Lectionary;
+        }
+        if(id == R.id.fragment_oremus){
+            destination = R.id.fragment_oremus;
         }
 
 
