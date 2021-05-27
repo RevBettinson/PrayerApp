@@ -11,7 +11,7 @@ It can currently:
 4. Will get the English Bible readings, and place them in-line in your prayer of choice (Welsh Bible readings are under investigation)
 
 #Downloading
-https://github.com/RevBettinson/PrayerApp/releases/tag/BETA-1.000
+https://github.com/RevBettinson/PrayerApp/releases/download/BETA-1.000/ChurchInWales-BETA-1.001.apk
 
 
 Your device may warn you about installation from "uknown sources", click "Okay". Make sure that you only do it for this app, and not for everything, if that's an option. 
