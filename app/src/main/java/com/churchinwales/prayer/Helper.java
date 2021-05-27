@@ -195,7 +195,7 @@ public class Helper {
 
 
 
-            if(prayerTime == "MP") {
+            if((prayerTime == "MP") || (prayerTime.equalsIgnoreCase("morningprayer"))) {
                 prayer = day.optJSONObject("MorningPrayer");
             }
             else {

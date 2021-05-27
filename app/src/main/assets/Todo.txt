@@ -16,6 +16,23 @@ Nid yw yr tudelen hwn yn ddwy-iethog gan fy mod i'n ddiog.
 <li>Evening Pray Fragment Retains "Morning Prayer" name</li>
 <li>Nid yw popeth yn cael ei cyfieithu yn iawn</li>
 </ul>
+<h2>Done for BETA 1.000</h2>
+<ul>
+<li>Added new BibleReadingsViewModel to deal with the structure of the page.
+<ul>
+<li>This uses an internal JSON to ensure the order that items are added is kept</li>
+<li>Enables the use of threads to get the Bible reading online, and allows the rest of the page to load
+while waiting for it to return</li>
+<li>Separates the Data from the View (as is good coding practice)</li>
+</ul></li>
+<li>Fixed the 'Lords Prayer' to be the one from the Church In Wales' Eucharist book.</li>
+<li>Bible readings provided as part of Morning/Evening Prayer (for the most part)</li>
+<li>Improved the scrolling behaviour of the Prayer, Oremus, and Home windows. </li>
+<li>Fixed the Oremus fragment window title.
+</ul>
+
+
+
 <h2>Items Added for Beta Release</h2>
 <ul>
 <li>New Drawer Layout to make navigation easy</li>

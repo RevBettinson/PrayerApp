@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Prayer</string>
     <string name="app_MorningPrayer">Morning Prayer</string>
-    <string name="app_version" translatable="false">BETA 0.004</string>
+    <string name="app_version" translatable="false">BETA 1.000</string>
     <string name="btn_Language">Cymraeg</string>
     <string name="Error">Error</string>
     <string name="FileNotFound">File Not Found</string>
@@ -23,4 +23,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_EveningPrayer">Evening Prayer</string>
     <string name="app_Lectionary">Lectionary</string>
+    <string name="app_Oremus" translatable="false">Oremus Bible Readings</string>
+    <string name="app_loading">loading</string>
+    <string name="Psalm" translatable="false">Psalm</string>
 </resources>
