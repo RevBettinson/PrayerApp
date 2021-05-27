@@ -8,9 +8,10 @@ It can currently:
 1. Offer a Morning Prayer (including a cycle of readings) in both English and Welsh.
 2. Offer an Evening Prayer (including a cycle of readings) in both English and Welsh.
 3. Uses the Church-In-Wales lectionary
+4. Will get the English Bible readings, and place them in-line in your prayer of choice (Welsh Bible readings are under investigation)
 
 #Downloading
-https://github.com/RevBettinson/PrayerApp/releases/tag/BETA0.004
+https://github.com/RevBettinson/PrayerApp/releases/tag/BETA-1.000
 
 
 Your device may warn you about installation from "uknown sources", click "Okay". Make sure that you only do it for this app, and not for everything, if that's an option. 
