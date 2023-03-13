@@ -6,6 +6,17 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/homeFragment"
+<<<<<<< HEAD
+            android:icon="@drawable/house"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fragment_Prayer"
+            android:icon="@drawable/morning"
+            android:title="@string/app_MorningPrayer" />
+        <item
+            android:id="@+id/id_EveningPrayer"
+            android:icon="@drawable/night"
+=======
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
@@ -15,10 +26,26 @@
         <item
             android:id="@+id/id_EveningPrayer"
             android:icon="@drawable/ic_menu_slideshow"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
             android:title="@string/app_EveningPrayer" />
     </group>
 
     <group android:checkableBehavior="single">
+<<<<<<< HEAD
+        <item
+            android:id="@+id/nav_Lectionary"
+            android:icon="@drawable/bible"
+            android:title="@string/app_Lectionary" />
+
+        <item
+            android:id="@+id/fragment_oremus"
+            android:icon="@drawable/bible"
+            android:title="@string/app_Oremus" />
+        <item
+            android:id="@+id/fragment_JSWORD"
+            android:icon="@drawable/bible"
+            android:title="@string/app_JSWORD" />
+=======
     <item
         android:id="@+id/nav_Lectionary"
         android:icon="@drawable/ic_menu_camera"
@@ -28,5 +55,6 @@
         android:id="@+id/fragment_oremus"
         android:icon="@drawable/ic_menu_camera"
         android:title="@string/app_Oremus" />
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     </group>
 </menu>

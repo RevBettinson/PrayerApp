@@ -250,7 +250,11 @@
                 "Name": "Monday",
                 "MorningPrayer": {
                     "Psalm": "Ps",
+<<<<<<< HEAD
+                    "OT": "Malachi 1:1,6-end",
+=======
                     "OT": "Malachi 1.1  6-end",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "NT": "Matthew 19.1-12"
                 },
                 "EveningPrayer": {
@@ -326,8 +330,13 @@
             }
         }
     },
+<<<<<<< HEAD
+    "EPIPHANY": {
+        "Name": "EPIPHANY",
+=======
     "Epiphany": {
         "Name": "Epiphany",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         "1": {
             "Name": "1",
             "Monday": {
@@ -1435,11 +1444,22 @@
             }
         }
     },
+<<<<<<< HEAD
+    "EASTER": {
+        "Name": "EASTER",
+        "Eve": {
+            "Name": "Eve"
+        },
+        "DAY:": {
+            "Name": "DAY:"
+        },
+=======
     "Easter": {
         "Name": "Easter",
         "Eve": {
             "Name": "Eve"
         },
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         "Week": {
             "Name": "Week",
             "Monday": {
@@ -1520,12 +1540,15 @@
                     "NT": "John 11:17-44"
                 }
             }
+<<<<<<< HEAD
+=======
         }
     },
     "EASTER": {
         "Name": "EASTER",
         "DAY:": {
             "Name": "DAY:"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         },
         "2": {
             "Name": "2",
@@ -2497,6 +2520,90 @@
             "Monday": {
                 "Name": "Monday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps 98  [99  101]",
+                    "OT": "1 Samuel 1:1-20",
+                    "NT": "Luke 19:28-40"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 103 or 105",
+                    "OT": "a) Nehemiah 12:27-47,b) Ezekiel 1.1-14",
+                    "NT": "2 Corinthians 1:1-14"
+                }
+            },
+            "Tuesday": {
+                "Name": "Tuesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 103 or 106",
+                    "OT": "1 Samuel 1.21 - 2.11",
+                    "NT": "Luke 19:41-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 107",
+                    "OT": "a) Nehemiah 13:1-14,b) Ezekiel 1.15 - 2.2",
+                    "NT": "2 Corinthians 1.15 - 2.4"
+                }
+            },
+            "Wednesday": {
+                "Name": "Wednesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [110 ] 111  [112]",
+                    "OT": "1 Samuel 2:12-26",
+                    "NT": "Luke 20:1-8"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 119. 129-152",
+                    "OT": "a) Nehemiah 13:15-end,b) Ezekiel 2.3 - 3.11",
+                    "NT": "2 Corinthians 2:5-end"
+                }
+            },
+            "Thursday": {
+                "Name": "Thursday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [113 ] 115",
+                    "OT": "1 Samuel 2:27-end",
+                    "NT": "Luke 20:9-19"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [114 ] 116  [117]",
+                    "OT": "a) Esther 1:b) Ezekiel 3.12-end",
+                    "NT": "2 Corinthians 3"
+                }
+            },
+            "Friday": {
+                "Name": "Friday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 139",
+                    "OT": "1 Samuel 3.1 - 4.1a",
+                    "NT": "Luke 20:20-26"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 130  [131  137]",
+                    "OT": "a) Esther 2:b) Ezekiel 8",
+                    "NT": "2 Corinthians 4"
+                }
+            },
+            "Saturday": {
+                "Name": "Saturday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [120 ] 121  [122]",
+                    "OT": "1 Samuel 4:1b-end",
+                    "NT": "Luke 20:27-40"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 118",
+                    "OT": "a) Esther 3:b) Ezekiel 9",
+                    "NT": "2 Corinthians 5"
+                }
+            }
+        },
+        "6": {
+            "Name": "6",
+            "Monday": {
+                "Name": "Monday",
+                "MorningPrayer": {
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "Psalm": "Ps [123  124  125 ] 126",
                     "OT": "1 Samuel 5",
                     "NT": "Luke 20.41 - 21.4"
@@ -2983,6 +3090,90 @@
             "Monday": {
                 "Name": "Monday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps 98  [99  101]",
+                    "OT": "2 Samuel 11",
+                    "NT": "Acts 8:26-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 105 or 103",
+                    "OT": "a) Micah 7:1-7,b) Proverbs 1431-15.17",
+                    "NT": "Mark 6:45-end"
+                }
+            },
+            "Tuesday": {
+                "Name": "Tuesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 106 or 103",
+                    "OT": "2 Samuel 12:1-25",
+                    "NT": "Acts 9:1-19a"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 107",
+                    "OT": "a) Micah 7:8-end,b) Proverbs 1518-end",
+                    "NT": "Mark 7:1-13"
+                }
+            },
+            "Wednesday": {
+                "Name": "Wednesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [110 ] 111  [112]",
+                    "OT": "2 Samuel 15:1-12",
+                    "NT": "Acts 9:19b-31"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 119. 129-152",
+                    "OT": "a) Habakkuk 1:1-11,b) Proverbs 1810-end",
+                    "NT": "Mark 7:14-23"
+                }
+            },
+            "Thursday": {
+                "Name": "Thursday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [113 ] 115",
+                    "OT": "2 Samuel 15:13-end",
+                    "NT": "Acts 9:32-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [114 ] 116  [117]",
+                    "OT": "a) Habakkuk 1.12 - 2.5 b) Proverbs 201-22",
+                    "NT": "Mark 7:24-30"
+                }
+            },
+            "Friday": {
+                "Name": "Friday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 139",
+                    "OT": "2 Samuel 16:1-14",
+                    "NT": "Acts 10:1-16"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 130  [131  137]",
+                    "OT": "a) Habakkuk 2:6-end,b) Proverbs 221-16",
+                    "NT": "Mark 7:31-end"
+                }
+            },
+            "Saturday": {
+                "Name": "Saturday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [120 ] 121  [122]",
+                    "OT": "2 Samuel 17:1-23",
+                    "NT": "Acts 10:17-33"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 118",
+                    "OT": "a) Habakkuk 3:2-19a,b) Proverbs 2423-end",
+                    "NT": "Mark 8:1-10"
+                }
+            }
+        },
+        "13": {
+            "Name": "13",
+            "Monday": {
+                "Name": "Monday",
+                "MorningPrayer": {
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "Psalm": "Ps [123  124  125 ] 126",
                     "OT": "2 Samuel 18:1-18",
                     "NT": "Acts 10:34-end"
@@ -3054,7 +3245,11 @@
                 },
                 "EveningPrayer": {
                     "Psalm": "Ps 148  [149  150]",
+<<<<<<< HEAD
+                    "OT": "a) Zechariah 3, b) Proverbs 3110-end",
+=======
                     "OT": "a) Zechariah 3:b) Proverbs 3110-end",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "NT": "Mark 9:30-37"
                 }
             }
@@ -3065,7 +3260,11 @@
                 "Name": "Monday",
                 "MorningPrayer": {
                     "Psalm": "Ps 1  [2  3]",
+<<<<<<< HEAD
+                    "OT": "1 Kings 1:5-31",
+=======
                     "OT": "1 Kings 1:.5-31",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "NT": "Acts 13:13-43"
                 },
                 "EveningPrayer": {
@@ -3151,7 +3350,11 @@
                 },
                 "EveningPrayer": {
                     "Psalm": "Ps [26 ] 28  [29]",
+<<<<<<< HEAD
+                    "OT": "a) Zechariah 10, b) Wisdom 6.12-23 or 1 Chronicles. 28 1-10",
+=======
                     "OT": "a) Zechariah 10:b) Wisdom 6.12-23 or 1 Chronicles. 28 1-10",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "NT": "Mark 11:1-11"
                 }
             },
@@ -3177,7 +3380,11 @@
                 },
                 "EveningPrayer": {
                     "Psalm": "Ps 119.33-56",
+<<<<<<< HEAD
+                    "OT": "a) Zechariah 12:1-10, b) Wisdom 7.15-8.4 or 1 Chronicles. 29.1-9",
+=======
                     "OT": "a) Zechariah 12:1-10,b) Wisdom 7.15-8.4 or 1 Chronicles. 29.1-9",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "NT": "Mark 11:27-end"
                 }
             },
@@ -3469,6 +3676,90 @@
             "Monday": {
                 "Name": "Monday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps 98  [99  101]",
+                    "OT": "2 Kings 17:24-end",
+                    "NT": "Philippians 1:1-11"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 105 or 103",
+                    "OT": "a) Sirach 22:6-22,or Ezekiel 281-19",
+                    "NT": "John 13:1-11"
+                }
+            },
+            "Tuesday": {
+                "Name": "Tuesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 106 or 103",
+                    "OT": "2 Kings 18:1-12",
+                    "NT": "Philippians 1:12-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 107",
+                    "OT": "a) Sirach 22.27 - 23.15 or Ezekiel 331-20",
+                    "NT": "John 13:12-20"
+                }
+            },
+            "Wednesday": {
+                "Name": "Wednesday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [110 ] 111  [112]",
+                    "OT": "2 Kings 18:13-end",
+                    "NT": "Philippians 2:1-13"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 119. 129-152",
+                    "OT": "a) Sirach 24:1-22,or Ezekiel 3321-end",
+                    "NT": "John 13:21-30"
+                }
+            },
+            "Thursday": {
+                "Name": "Thursday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [113 ] 115",
+                    "OT": "2 Kings 19:1-19",
+                    "NT": "Philippians 2:14-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [114 ] 116  [117]",
+                    "OT": "a) Sirach 24:23-end,or Ezekiel 341-16",
+                    "NT": "John 13:31-end"
+                }
+            },
+            "Friday": {
+                "Name": "Friday",
+                "MorningPrayer": {
+                    "Psalm": "Ps 139",
+                    "OT": "2 Kings 19:20-36",
+                    "NT": "Philippians 3.1 - 4.1"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 130  [131  137]",
+                    "OT": "a) Sirach 27.3 - 28.9 or Ezekiel 3417-end",
+                    "NT": "John 14:1-14"
+                }
+            },
+            "Saturday": {
+                "Name": "Saturday",
+                "MorningPrayer": {
+                    "Psalm": "Ps [120 ] 121  [122]",
+                    "OT": "2 Kings 20",
+                    "NT": "Philippians 4:2-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 118",
+                    "OT": "a) Sirach 28:14-end,or Ezekiel 36:16-36",
+                    "NT": "John 14:15-end"
+                }
+            }
+        },
+        "20": {
+            "Name": "20",
+            "Monday": {
+                "Name": "Monday",
+                "MorningPrayer": {
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "Psalm": "Ps [123  124  125 ] 126",
                     "OT": "2 Kings 21:1-18",
                     "NT": "1 Timothy 1:1-17"
@@ -3796,7 +4087,11 @@
             "Monday": {
                 "Name": "Monday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps [19], 20",
+=======
                     "Psalm": "Ps [19 ] 20",
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                     "OT": "Daniel 4:19-end",
                     "NT": "Revelation 5"
                 },
@@ -3877,6 +4172,16 @@
             "Monday": {
                 "Name": "Monday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps [46], 47",
+                    "OT": "Daniel 8:1-14",
+                    "NT": "Revelation 10"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [70], 71",
+                    "OT": "Isaiah 9:8-10:4",
+                    "NT": "Matthew 7:1-12"
+=======
                     "Psalm": "Ps [92 ] 96",
                     "OT": "Isaiah 40:1-11",
                     "NT": "Revelation 14:1-13"
@@ -3885,11 +4190,22 @@
                     "Psalm": "Ps 80  [81]",
                     "OT": "Isaiah 14:3-20",
                     "NT": "Matthew 9:18-34"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                 }
             },
             "Tuesday": {
                 "Name": "Tuesday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps [48],52",
+                    "OT": "Daniel 8:15-end",
+                    "NT": "Revelation 11:1-4"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [67], [72]",
+                    "OT": "Isaiah 10:5-19",
+                    "NT": "Mathew 7:13-end"
+=======
                     "Psalm": "Ps 97  [98  100]",
                     "OT": "Isaiah 40:12-26",
                     "NT": "Revelation 14:14-end,of 15"
@@ -3898,11 +4214,22 @@
                     "Psalm": "Ps [99 ] 101",
                     "OT": "Isaiah 17",
                     "NT": "Matthew 9.35 - 10.15"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                 }
             },
             "Wednesday": {
                 "Name": "Wednesday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps [56], 57",
+                    "OT": "Daniel 9:1-19",
+                    "NT": "Revelation 11:15-end"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 73",
+                    "OT": "Isaiah 10:20-32",
+                    "NT": "Matthew 8:1-13"
+=======
                     "Psalm": "Ps [110  111 ] 112",
                     "OT": "Isaiah 40.27 - 41.7",
                     "NT": "Revelation 16:1-11"
@@ -3911,11 +4238,22 @@
                     "Psalm": "Ps [121 ] 122  [123  124]",
                     "OT": "Isaiah 19",
                     "NT": "Matthew 10:16-33"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                 }
             },
             "Thursday": {
                 "Name": "Thursday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps [61], 62]",
+                    "OT": "Daniel 9:20-end",
+                    "NT": "Revelation 12"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps [74], 76",
+                    "OT": "Isaiah 10:33-11:9",
+                    "NT": "Matthew 8:14-22"
+=======
                     "Psalm": "Ps 125  [126  127  128]",
                     "OT": "Isaiah 41:8-20",
                     "NT": "Revelation 16:12-end"
@@ -3924,11 +4262,22 @@
                     "Psalm": "Ps [131  132 ] 133",
                     "OT": "Isaiah 21:1-12",
                     "NT": "Matthew 10.34 - 11.1"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                 }
             },
             "Friday": {
                 "Name": "Friday",
                 "MorningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps 63,[65]",
+                    "OT": "Daniel 10:1-11:1",
+                    "NT": "Revelation 13:1-10"
+                },
+                "EveningPrayer": {
+                    "Psalm": "Ps 77",
+                    "OT": "Isaiah 11:10 - 12:1-end",
+                    "NT": "Matthew 8:23-end"
+=======
                     "Psalm": "Ps 139",
                     "OT": "Isaiah 41.21 - 42.9",
                     "NT": "Revelation 17"
@@ -3937,6 +4286,7 @@
                     "Psalm": "Ps 146  [147]",
                     "OT": "Isaiah 22:1-14",
                     "NT": "Matthew 11:2-19"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
                 }
             },
             "Saturday": {
@@ -3947,11 +4297,100 @@
                     "NT": "Revelation 18"
                 },
                 "EveningPrayer": {
+<<<<<<< HEAD
+                    "Psalm": "Ps 99, 100",
+                    "OT": "Isaiah 10:33-11.9",
+                    "NT": "1 Timothy 6:11-16"
+                }
+            }
+        },
+        "4": {
+            "Name": "4",
+            "Monday": {
+                    "Name": "Monday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps [92 ] 96",
+                        "OT": "Isaiah 40:1-11",
+                        "NT": "Revelation 14:1-13"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps 80  [81]",
+                        "OT": "Isaiah 14:3-20",
+                        "NT": "Matthew 9:18-34"
+                    }
+                },
+                "Tuesday": {
+                    "Name": "Tuesday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps 97  [98  100]",
+                        "OT": "Isaiah 40:12-26",
+                        "NT": "Revelation 14:14-end,of 15"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps [99 ] 101",
+                        "OT": "Isaiah 17",
+                        "NT": "Matthew 9.35 - 10.15"
+                    }
+                },
+                "Wednesday": {
+                    "Name": "Wednesday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps [110  111 ] 112",
+                        "OT": "Isaiah 40.27 - 41.7",
+                        "NT": "Revelation 16:1-11"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps [121 ] 122  [123  124]",
+                        "OT": "Isaiah 19",
+                        "NT": "Matthew 10:16-33"
+                    }
+                },
+                "Thursday": {
+                    "Name": "Thursday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps 125  [126  127  128]",
+                        "OT": "Isaiah 41:8-20",
+                        "NT": "Revelation 16:12-end"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps [131  132 ] 133",
+                        "OT": "Isaiah 21:1-12",
+                        "NT": "Matthew 10.34 - 11.1"
+                    }
+                },
+                "Friday": {
+                    "Name": "Friday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps 139",
+                        "OT": "Isaiah 41.21 - 42.9",
+                        "NT": "Revelation 17"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps 146  [147]",
+                        "OT": "Isaiah 22:1-14",
+                        "NT": "Matthew 11:2-19"
+                    }
+                },
+                "Saturday": {
+                    "Name": "Saturday",
+                    "MorningPrayer": {
+                        "Psalm": "Ps 145",
+                        "OT": "Isaiah 42:10-17",
+                        "NT": "Revelation 18"
+                    },
+                    "EveningPrayer": {
+                        "Psalm": "Ps [148  149 ] 150",
+                        "OT": "Isaiah 24",
+                        "NT": "Luke 19:41-48"
+                    }
+                }
+=======
                     "Psalm": "Ps [148  149 ] 150",
                     "OT": "Isaiah 24",
                     "NT": "Luke 19:41-48"
                 }
             }
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         }
     }
 }

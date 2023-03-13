@@ -34,7 +34,11 @@
                 android:layout_marginTop="6dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="6dp"
+<<<<<<< HEAD
+                android:text="@string/FileNotFound" />
+=======
                 android:text="@string/hello_blank_fragment" />
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         </LinearLayout>
     </ScrollView>
 

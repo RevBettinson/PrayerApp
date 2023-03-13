@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+=======
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.churchinwales.prayer">
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 
     <application
         android:allowBackup="true"
@@ -10,6 +17,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prayer">
         <activity
+<<<<<<< HEAD
+            android:name=".SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:theme="@style/Theme.Prayer.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+
+            <!-- android:theme="@style/Theme.AppCompat"> -->
+
+
+        </activity>
+    </application>
+=======
             android:name=".MainActivity"
             android:label="@string/app_name" >
             <!--android:theme="@style/Theme.AppCompat"> -->
@@ -22,5 +54,6 @@
         </activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 
 </manifest>

@@ -44,7 +44,11 @@
     "Section5": {
       "Name":"Intercessions",
       "Location":"Intercessions",
+<<<<<<< HEAD
+      "File" :"IntercessionsMP"
+=======
       "File" :"Intercessions"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     },
     "Section6" : {
       "Name":"Prayer",
@@ -59,7 +63,11 @@
     "Section8": {
       "Name": "Collect For Grace",
       "Location":"Collects",
+<<<<<<< HEAD
+      "File":"Grace2"
+=======
       "File":"Grace"
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     },
     "Section9": {
       "Name": "Conclusion",

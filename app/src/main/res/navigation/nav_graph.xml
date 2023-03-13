@@ -2,7 +2,11 @@
 <navigation xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
+    app:startDestination="@id/fragment_cardview">
+=======
     app:startDestination="@id/homeFragment">
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     <fragment
         android:id="@+id/fragment_Prayer"
         android:name="com.churchinwales.prayer.fragment_Prayer"
@@ -11,6 +15,13 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.churchinwales.prayer.ui.home.HomeFragment"
+<<<<<<< HEAD
+        android:label="Home" />
+    <fragment
+        android:id="@+id/id_EveningPrayer"
+        android:label="@string/app_EveningPrayer" />
+
+=======
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
@@ -19,6 +30,7 @@
     <fragment
         android:id="@+id/nav_Lectionary"
         android:label="@app_Lectionary" />
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     <fragment
         android:id="@+id/fragment_Lectionary"
         android:name="com.churchinwales.prayer.fragment_Lectionary"
@@ -29,5 +41,21 @@
         android:name="com.churchinwales.prayer.fragment_oremus"
         android:label="@string/app_Oremus"
         tools:layout="@layout/fragment_oremus" />
+<<<<<<< HEAD
+    <fragment
+        android:id="@+id/fragment_JSWORD"
+        android:name="com.churchinwales.prayer.fragment_JSWORD"
+        android:label="@string/app_JSWORD"
+        tools:layout="@layout/fragment_jsword" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.churchinwales.prayer.SettingsActivity.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/fragment_cardview"
+        android:name="com.churchinwales.prayer.fragment_cardview"
+        android:label="@string/app_Welcome" />
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 </navigation>
 

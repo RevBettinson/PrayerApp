@@ -17,6 +17,10 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="@dimen/app_ActionBar_Height"
+<<<<<<< HEAD
+        android:fontFamily="More Fonts..."
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         android:text="@string/btn_Language"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.343"

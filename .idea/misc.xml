@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/activity_main2.xml" value="0.13020833333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/card.xml" value="0.15833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/discard.xml" value="0.11614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/fragment_cardview.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/fragment_home.xml" value="0.13020833333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/fragment_jsword.xml" value="0.13020833333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/fragment_lectionary.xml" value="0.13020833333333334" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/layout/fragment_prayer.xml" value="0.1265625" />
+        <entry key="..\:/AndroidStudioProjects/Prayer2/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

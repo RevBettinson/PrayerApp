@@ -1,0 +1,49 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="pref_fontsize_values">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+
+    <string-array name="pref_font_entries">
+        <item>Sans-serif</item>
+        <item>Tahoma</item>
+        <item>Helvetica</item>
+        <item>Verdana</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Monospace</item>
+        <item>Open Dyslexic</item>
+    </string-array>
+    <string-array name="pref_font_values">
+        <item>sans-serif</item>
+        <item>tahoma</item>
+        <item>helvetica</item>
+        <item>verdana</item>
+        <item>casual</item>
+        <item>cursive</item>
+        <item>monospace</item>
+        <item>opendyslexicregular.otf</item>
+    </string-array>
+</resources>

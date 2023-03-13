@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Prayer</string>
     <string name="app_MorningPrayer">Morning Prayer</string>
+<<<<<<< HEAD
+=======
     <string name="app_version" translatable="false">BETA 1.000</string>
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     <string name="btn_Language">Cymraeg</string>
     <string name="Error">Error</string>
     <string name="FileNotFound">File Not Found</string>
@@ -19,6 +22,49 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+<<<<<<< HEAD
+
+    <string name="app_EveningPrayer">Evening Prayer</string>
+    <string name="app_Lectionary">Lectionary</string>
+    <string name="app_Oremus">English Bible Readings (Oremus)</string>
+    <string name="app_loading">loading</string>
+    <string name="Psalm" translatable="false">Psalm</string>
+    <string name="app_JSWORD">Welsh Bible Readings (JSWORD)</string>
+    <string name="app_WelshBibleJswordName" translatable="false">WelBeiblNet</string>
+    <string name="App_Key_SharedPref" translatable="false">ChurchInWalesPrayer</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pref_Display">Display</string>
+    <string name="pref_Display_Font_Default">sans-serif</string>
+    <string name="pref_Display_Font">Default Font</string>
+    <string name="pref_Display_FontSize">Font Size</string>
+    <string name="pref_Display_FontSize_Default" translatable="false">14</string>
+    <string name="app_version">Release 1.2.1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_Welcome">Welcome</string>
+    <string name="app_EnglishBibleJswordName">OEBcth</string>
+    <string name="app_EnglishBibleJswordZipName">OEBcth.zip</string>
+    <string name="error_NoInternet">Error, No Internet Access Found</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_full_name">The (Unofficial) Church In Wales Prayer App</string>
+=======
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_EveningPrayer">Evening Prayer</string>
@@ -26,4 +72,5 @@
     <string name="app_Oremus" translatable="false">Oremus Bible Readings</string>
     <string name="app_loading">loading</string>
     <string name="Psalm" translatable="false">Psalm</string>
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 </resources>

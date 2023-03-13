@@ -1,8 +1,32 @@
 <h1>Welcome to the <em>(Unofficial)</em> Church In Wales App</h1>
 
+<<<<<<< HEAD
+<P>Welcome to the first release of the (Unofficail) Church in Wales Prayer app.
+For a long time people have complained that we don't have one that uses our liturgy, and misses
+out on a wealth of our own tradition. This is my attempt at producing one.
+</p>
+<P>
+The first thing to say is that this app is not complete (as you can see below). It is a work in
+progress. There may be niggles, and places where it doesn't quite work as you might expect. These are
+called 'bugs'. If you find a bug, please let me know!
+</P>
+<p>
+You might also find that while using the app, there's something that you expect it to do, that it
+doesn't. This is called a "Feature", or rather, the lack of a feature. If you notice something that
+you miss from another app that you are using, please let me know, by making a "Feature Request".
+</p>
+<p>
+This app is developed (currently) in my own time, and done as a labour of love. If you like what
+I'm doing, and would like to help, or perhaps even support this form of ministry, please
+consider donating to my Koffi (https://ko-fi.com/philbettinson).</p>
+<p>
+</P>
+This app is currently under heavy development. Please always check for the latest version before
+=======
 <P>
 This app is currently under heavy development. This means that things may change,
 break, or randomly stop working. Please always check for the latest version before
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 posting a bug report. Please also check the 'known bugs' (below) to see if it's something
 we are already working on.
 </p>
@@ -13,8 +37,38 @@ Nid yw yr tudelen hwn yn ddwy-iethog gan fy mod i'n ddiog.
 <ul>
 <li>There are no Sunday Lectionary Readings</li>
 <li>Sometimes the Prayer list will appear blank, and needs to be chosen again</li>
+<<<<<<< HEAD
+<li>Nid yw popeth yn cael ei cyfieithu yn iawn</li>
+<li>The raw lectionary Data includes the Apocrypha, which is not in the (current) included Welsh Bible.</li>
+<li>Human-readable Lectionary data (ie. "end"), does not work with Welsh Bible.</li>
+<li>Various typos in lectionary data mean readings may fail to load</li>
+</ul>
+<h2> Done for Beta 2.4 RC 1</h2>
+<ul>
+<li>Various Quality of Life improvements</li>
+<li>Improved MP/EP output.
+<li>Added Settings for changing of font on major screens (Welcome, Morning Prayer, Evening Prayer)
+<li>Improved reading of lectionary data<li>
+</ul>
+<ul>
+<h2>Done for BETA 2.0 </h2>
+<ul>
+<li>Added JSWORD for use of Beible.net</li>
+<ul>
+<li>JSWORD page now results for the Welsh Bible (MP only)
+<li>Beible.net now shows properly in the Welsh prayer.
+</ul>
+<li>Light Theme properly displays text as black</li>
+</ul>
+<h2>Done for BETA 1.1 (unreleased)</h2>
+<ul>
+<li>Updated the Colours to be more uniform</li>
+<li>Updated the menu icons to match the names a bit closer<li>
+<li>Fixed the Navbar names to match the prayer being displayed<li>
+=======
 <li>Evening Pray Fragment Retains "Morning Prayer" name</li>
 <li>Nid yw popeth yn cael ei cyfieithu yn iawn</li>
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 </ul>
 <h2>Done for BETA 1.000</h2>
 <ul>
@@ -28,11 +82,21 @@ while waiting for it to return</li>
 <li>Fixed the 'Lords Prayer' to be the one from the Church In Wales' Eucharist book.</li>
 <li>Bible readings provided as part of Morning/Evening Prayer (for the most part)</li>
 <li>Improved the scrolling behaviour of the Prayer, Oremus, and Home windows. </li>
+<<<<<<< HEAD
+<li>Fixed the Oremus fragment window title.</li>
+<li>Fixed Missing Items in Morning Prayer Layout 2</li>
+</ul>
+<h2>Fixed Bugs</H2>
+<ul>
+<li>Evening Pray Fragment Retains "Morning Prayer" name(Fixed BETA 1.1)</li>
+</ul>
+=======
 <li>Fixed the Oremus fragment window title.
 </ul>
 
 
 
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 <h2>Items Added for Beta Release</h2>
 <ul>
 <li>New Drawer Layout to make navigation easy</li>

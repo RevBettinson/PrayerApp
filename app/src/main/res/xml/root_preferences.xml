@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_Display">
+        <ListPreference
+            app:defaultValue="@string/pref_Display_FontSize_Default"
+            app:entries="@array/pref_fontsize_values"
+            app:entryValues="@array/pref_fontsize_values"
+            app:key="fontSize"
+            app:title="@string/pref_Display_FontSize"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="@string/pref_Display_Font_Default"
+            app:entries="@array/pref_font_entries"
+            app:entryValues="@array/pref_font_values"
+            app:key="font"
+            app:title="@string/pref_Display_Font"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
