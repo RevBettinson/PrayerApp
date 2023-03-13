@@ -3,7 +3,6 @@ An attempt at a prayer app, initially aimed at the Church In Wales
 
 This app is an attempt to bring the Church In Wales Daily Offices to a mobile device. 
 
-<<<<<<< HEAD
 It is currently available from the Android Play Store. 
 
 It can:
@@ -11,7 +10,7 @@ It can:
 Offer Morning and Evening prayer in both English and Welsh
 Includes inline bible readings from the Church In Wales lectionary
 
-Version 1.2.1 is mostly stable, but continues to be a work in progress while the lectionary is updated to be more future proof. 
+Version 1.2.2 is mostly stable, but continues to be a work in progress while the lectionary is updated to be more future proof. 
 =======
 It can currently:
 
@@ -21,15 +20,9 @@ It can currently:
 4. Will get the English Bible readings, and place them in-line in your prayer of choice (Welsh Bible readings are under investigation)
 
 #Downloading
-https://github.com/RevBettinson/PrayerApp/releases/download/BETA-1.000/ChurchInWales-BETA-1.001.apk
+Download from the app store. If you want to be a tester, let me know via email, and I'll add you to the internal testers list. 
 
-
-Your device may warn you about installation from "uknown sources", click "Okay". Make sure that you only do it for this app, and not for everything, if that's an option. 
-Your device may warn you about "Unknown" or "Untrusted" publisher. Click "Okay" or "Install Anway" (depending on the phone). 
-
-You should find the app called "Prayer" is now installed. You should find the icon to be a slightly off-center Church Of Wales round cross
 
 Support this project, and feed my coffee addiction:
 https://ko-fi.com/philbettinson
->>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 
