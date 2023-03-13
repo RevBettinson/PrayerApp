@@ -12,4 +12,27 @@
     <string name="app_Lectionary">Llythiadur</string>
     <string name="nav_header_title">App Answyddogol Eglwys Yngh Nhgymru</string>
     <string name="app_loading">llwytho</string>
+<<<<<<< HEAD
+    <string name="title_activity_main">PrifGweithgaredd</string>
+    <string name="navigation_drawer_open">Agor Ddrar</string>
+    <string name="navigation_drawer_close">Cae Ddrar</string>
+    <string name="nav_header_desc">Pen Mordwyo</string>
+    <string name="menu_home">Cartref</string>
+    <string name="action_settings">Gosodiadau</string>
+    <string name="menu_gallery">Oriel</string>
+    <string name="menu_slideshow">Sioe Symudol</string>
+    <string name="pref_Display_Font_Default">Arial</string>
+    <string name="pref_Display_Font">Font Rhagosiad</string>
+    <string name="pref_Display">Ddangosiad</string>
+    <string name="pref_Display_FontSize">Maint Font</string>
+    <string name="app_version">Rhyddhad 1.2.1</string>
+    <string name="app_JSWORD">Darlleniadau Beible Cymraeg (JSWORD)</string>
+    <string name="app_Oremus">Darlleniadau Beible Saesneg (Oremus)</string>
+    <string name="app_Welcome">Croeso</string>
+    <string name="app_EnglishBibleJswordName">OEBcth</string>
+    <string name="app_EnglishBibleJswordZipName">OEBcth.zip</string>
+    <string name="error_NoInternet">Error, No Internet Access Found</string>
+    <string name="app_full_name">The (Unofficial) Church In Wales Prayer App</string>
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 </resources>

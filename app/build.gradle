@@ -1,20 +1,48 @@
 plugins {
     id 'com.android.application'
+<<<<<<< HEAD
+    id 'kotlin-android'
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 31
+=======
 }
 
 android {
     compileSdkVersion 30
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.churchinwales.prayer"
         minSdkVersion 26
+<<<<<<< HEAD
+        targetSdkVersion 31
+        versionCode 17
+        versionName "R 1.2.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/DEPENDENCIES', 'META-INF/LICENSE', 'META-INF/LICENSE.txt', 'META-INF/license.txt', 'META-INF/NOTICE', 'META-INF/NOTICE.txt', 'META-INF/notice.txt', 'META-INF/ASL2.0']
+        }
+    }
+
+=======
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 
     buildTypes {
         release {
@@ -26,6 +54,61 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+<<<<<<< HEAD
+    namespace 'com.churchinwales.prayer'
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+
+    /*
+    *JSWORD additions
+     */
+    //    implementation 'commons-codec:commons-codec:1.10'
+    implementation 'commons-net:commons-net:3.6'
+    implementation 'org.tukaani:xz:1.6'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.10'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.6'
+    implementation 'org.jdom:jdom2:2.0.6'
+    implementation 'com.ibm.icu:icu4j:59.1'
+    implementation 'org.mockito:mockito-core:1.9.5'
+    implementation "org.apache.commons:commons-compress:1.12"
+    implementation "com.chenlb.mmseg4j:mmseg4j-analysis:1.8.6"
+    implementation "com.chenlb.mmseg4j:mmseg4j-dic:1.8.6"
+    implementation "org.jdom:jdom2:2.0.6"
+    implementation "org.apache.lucene:lucene-analyzers:3.6.2"
+    implementation "com.google.android.material:material:1.4.0"
+
+
+    //implementation "org.slf4j:slf4j-api:1.7.6"
+    if(project.hasProperty("tests")) {
+        implementation "org.slf4j:slf4j-api:1.7.6"
+    } else {
+        implementation 'de.psdev.slf4j-android-logger:slf4j-android-logger:1.0.5'
+    }
+    testImplementation 'junit:junit:4.13.2'
+
+
+    /*
+   *Kotlin Additions
+    */
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+=======
 }
 
 dependencies {
@@ -41,4 +124,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 }

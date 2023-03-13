@@ -1,0 +1,28 @@
+{
+  "2021": {
+
+    "KINGDOM": {
+      "Name": "KINGDOM",
+      "StartDay": "31",
+      "StartMonth": "10",
+      "EndDay": "28",
+      "EndMonth": "11"
+    },
+
+    "ADVENT": {
+      "Name" : "ADVENT",
+      "StartDay": "29",
+      "StartMonth": "11",
+      "EndDay": "24",
+      "EndMonth": "12"
+    },
+
+    "CHRISTMAS"  :{
+      "Name":  "CHRISTMAS",
+      "StartDay": "25",
+      "StartMonth": "12",
+      "EndDay": "27",
+      "EndMonth": "12"
+    }
+  }
+}

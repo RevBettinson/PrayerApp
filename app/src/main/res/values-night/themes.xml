@@ -2,8 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.Prayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+<<<<<<< HEAD
+        <item name="colorPrimary">@color/end_Blue</item>
+        <item name="colorPrimaryVariant">@color/start_Blue</item>
+=======
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +17,14 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+<<<<<<< HEAD
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.Prayer.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
     </style>
 </resources>

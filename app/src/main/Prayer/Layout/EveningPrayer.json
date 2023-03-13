@@ -66,6 +66,14 @@
 			"Location": "MorningPrayer/Dismissals",
 			"File":"Dismissal1"
 		},
+<<<<<<< HEAD
+		"Section92":{
+			"Name":"Ending",
+			"Location": "MorningPrayer/Dismissals",
+			"File":"Ending"
+		},
+=======
+>>>>>>> c8d18d3a23865f287581bd62aeea5a38dd359ff1
 		"Section10": {
 			"Name": "Copyright",
 			"Location":"Licences",
